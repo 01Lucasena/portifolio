@@ -1,0 +1,149 @@
+.contato{
+    position: relative;
+    background: #D6FF3F;
+    padding: 100px 0;
+    text-align: left;
+    color:black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+.left-contato{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.right-contato{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.formulario-title{
+    font-family: 'DrukCondensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.whatsapp-title{
+    font-family: 'DrukCondensed', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.formulario-contato{
+    margin-top: 10px;
+    background: #0B0D10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 320px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.formulario-label{
+    color: #D6FF3F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.input-contato{
+    width: 90%;
+    height: 25px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.input-mensagem{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.btn-enviar{
+    align-self: flex-end;
+    margin-right: 30px;
+    color: #D6FF3F;
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.btn-enviar:hover{
+    color: #addc02;
+}
+
+.divisao{
+    margin: 30px 0;
+    text-align: center;
+    font-family: 'DrukCondensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.whatsapp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background: #0B0D10;
+    padding: 20px;
+    border-radius: 20px;
+    color: #D6FF3F;
+    height: 320px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.whatsapp-container-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.whatsapp-container-description{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.whatsapp-container-btn{
+    width: 200px;
+    padding: 6px;
+    background: #D6FF3F;
+    color: #0B0D10;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.whatsapp-container-btn:hover{
+    background: #addc02;
+}
+
+.whats-icon{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.whatsapp-container-text{
+    font-size: 12px;
+    margin-top: 20px;
+}

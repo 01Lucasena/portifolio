@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'DrukCondensed';
+    src: url('/fonts/DrukCond-Super-Trial.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sobre{
+    position: relative;
+    background: #D6FF3F;
+    padding: 100px 0;
+    text-align: left;
+    color:black;
+    height: 100vh;
+   
+
+}
+
+.sobre-title{
+    font-family: 'DrukCondensed', sans-serif;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 100px;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-transform: uppercase;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.sobre-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.6;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.skills-title{
+    font-family: 'DrukCondensed', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 100px;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    text-transform: uppercase;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.skills-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-icon{
+    font-size: 40px;
+    color: #000;
+    
+}
+
+.arrow-bg{
+    background-color: #000;
+    width: 45px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.arrow-icon{
+    display: inline-block;
+    margin-right: 10px;
+    transform: rotate(-45deg);
+    color: #D6FF3F;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .sobre {
+        padding: 60px 0;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .sobre-title {
+        font-size: 2.5rem;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .sobre-text {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+    
+    .skills-title {
+        font-size: 2.5rem;
+        margin-left: 50px;
+    }
+    
+    .skills-icons {
+        gap: 30px;
+        margin-top: 50px;
+    }
+    
+    .skill-icon {
+        font-size: 35px;
+    }
+    
+    .arrow-bg {
+        width: 40px;
+        height: 60px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre {
+        padding: 40px 0;
+    }
+    
+    .sobre-title {
+        font-size: 2rem;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-underline-offset: 8px;
+    }
+    
+    .sobre-text {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .skills-title {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    
+    .skills-icons {
+        gap: 20px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .skill-icon {
+        font-size: 30px;
+    }
+    
+    .arrow-bg {
+        width: 35px;
+        height: 50px;
+        margin-right: 10px;
+    }
+}
