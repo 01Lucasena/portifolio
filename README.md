@@ -13,7 +13,6 @@ Bem-vindo ao meu portfólio pessoal desenvolvido com React! Este projeto apresen
 - Seção "Sobre" com informações profissionais
 - Portfólio de projetos com visualização detalhada
 - Formulário de contato funcional
-- Tema claro/escuro (se aplicável)
 - Animações suaves e UI moderna
 
 ## 🛠️ Tecnologias Utilizadas
@@ -69,3 +68,4 @@ Link do Projeto: [https://github.com/01Lucasena/portfolio](https://github.com/01
 ---
 
 Feito com ❤️ por [Lucas](https://github.com/01Lucasena)
+
